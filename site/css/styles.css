@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    background-color: #073642 !important;
+}
+
+h1 {
+    font-family: 'playfair_displaybold' !important;
+    font-size: 60px !important;
+    color: #b58900 !important;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'roboto_condensedregular' !important;
+    color: #2aa198 !important;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #93a1a1 !important;
+}
+
+p, span {
+    color: #839496 !important;
+    font-size: 16px !important;
+}
+
+h4, p, a, span {
+    font-family: 'robotoregular' !important;
+}
+
+a { 
+    color: #cb4b16 !important;
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #268bd2 !important;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'roboto_condensedregular' !important;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 20px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+section > .row {
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    iframe {
+        height: 300px !important;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+}

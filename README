@@ -1,0 +1,36 @@
+Gabriel Arteaga
+12/13/16
+
+Uses two heirarchical models. The parts of the person are relative to the hips.
+The parts of the bag are relative to the ball at the top.
+
+Has fake physics and fake collision detection. I was originally going to implement
+collision detection but was unsure how after a few unsuccessful attempts.
+
+I understand the theory about it. If I were to do bounding spheres, I would check
+if the distance between the center of both spheres is less than the sum of both radii,
+then the objects are colliding.
+
+Press K to kick
+Press P to punch
+WASD to move around
+
+If you press punch or kick during an animation, they might end up in a wonky state afterwards.
+
+Pressing M moves the person so that it's not in range of the punching bag. I originally implemented it so that
+when collision detection was implemented, you could press M to move it away and show that the bag doesn't move when
+farther away. However, since collision detection wasn't implemented in the end, the movement is useless.
+
+Dependencies:
+GLFW
+GLEW
+OpenGL
+
+To run program:
+mkdir build
+cd build
+cmake ..
+make -j4
+./final ../resources
+
+
