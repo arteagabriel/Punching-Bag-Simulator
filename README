@@ -21,6 +21,8 @@ Pressing M moves the person so that it's not in range of the punching bag. I ori
 when collision detection was implemented, you could press M to move it away and show that the bag doesn't move when
 farther away. However, since collision detection wasn't implemented in the end, the movement is useless.
 
+Shaders are located in /resources
+
 Dependencies:
 GLFW
 GLEW
